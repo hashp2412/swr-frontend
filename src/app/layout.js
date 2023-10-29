@@ -1,5 +1,6 @@
 import "tailwindcss/tailwind.css";
 import "./globals.css";
+import Script from "next/script";
 export const metadata = {
   title: 'SGI',
   description: 'Surendra Group Of Institutions',
@@ -11,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
       
-      <script src="/scroll-entrance.js"></script>
+      <Script src="/scroll-entrance.js"></Script>
       <style>
           {`
             [data-entrance] { visibility: hidden; }
