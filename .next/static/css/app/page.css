@@ -1,0 +1,13 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\fonts.js","import":"Sofia_Sans_Condensed","arguments":[{"subsets":["cyrillic"],"display":"swap"}],"variableName":"sofia"} ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: '__Sofia_Sans_Condensed_Fallback_f63a6a';
+  src: local("Arial");
+  ascent-override:119.66%;
+  descent-override:39.89%;
+  line-gap-override:0.00%;
+  size-adjust:75.21%;
+}@font-face {font-family: '__Sofia_Sans_Condensed_Fallback_Fallback_f63a6a';src: local("Arial");ascent-override: 119.66%;descent-override: 39.89%;line-gap-override: 0.00%;size-adjust: 75.21%
+}.__className_f63a6a {font-family: '__Sofia_Sans_Condensed_Fallback_f63a6a', '__Sofia_Sans_Condensed_Fallback_Fallback_f63a6a';font-style: normal
+}
