@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className="w-full h-[30rem] bg-[#6e0d28] overflow-hidden flex-col">
         <div className="flex h-full w-full">
-          <div className=" mt-[5%] w-[30%] pl-[5%] border-r-[#8a495a] border-r-[1px] h-[50%] mr-[5%]">
+          <div className=" mt-[5%] w-[30%] pl-[5%] border-r-[#8a495a] border-r-[1px] h-[50%] mr-[5%]" data-entrance="from-left">
             <img
               src="/mainlogo.png"
               alt=""
@@ -16,7 +16,7 @@ const Footer = () => {
             </button>
           </div>
 
-          <div className="w-[30%] pt-6 h-[50%] mr-[5%] mt-[5%]">
+          <div className="w-[30%] pt-6 h-[50%] mr-[5%] mt-[5%]" data-entrance="fade">
             <div className="text-md text-[#eb4245]  ">MAIN CAMPUS</div>
             <div className="text-lg uppercase text-white font-semibold font-serif">
               H.H. Gardens, Power House Road,
@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-[60%] h-full ml-4 border-t-[#8a495a] border-t-[1px] mt-[5%] mr-[4%] ">
+          <div className="w-[60%] h-full ml-4 border-t-[#8a495a] border-t-[1px] mt-[5%] mr-[4%] "data-entrance="from-right">
             <div className=" flex mt-4">
               <div className="uppercase text-xl text-white tracking-tighter font-thin">follow Surendra group of institutions</div>
               <img

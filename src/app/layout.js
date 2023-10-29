@@ -9,6 +9,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
  return (
     <html lang="en">
+      <head>
+      
+      <script src="/scroll-entrance.js"></script>
+      <style>
+          {`
+            [data-entrance] { visibility: hidden; }
+          `}
+        </style>
+      </head>
       <body>{children}</body>
     </html>
   )
