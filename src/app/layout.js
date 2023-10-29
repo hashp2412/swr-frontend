@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
       
-      <script src="/scroll-entrance.js" async/>
+      <script src="/scroll-entrance.js"/>
       <style>
           {`
             [data-entrance] { visibility: hidden; }
