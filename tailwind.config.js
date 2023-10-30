@@ -32,7 +32,7 @@ module.exports = {
       colors:{
         darkred: ["#891032"],
         red: ["#A4133C"],
-        brightred: ["#e5383b"],
+        brightblue: ["#68ace5"],
         brightred2: ["#eb4245"],
         maroon: ["#6e0d28"],
         darkblue: ['#4da9ff'],
