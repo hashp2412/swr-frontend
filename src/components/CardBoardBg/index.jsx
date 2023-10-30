@@ -12,7 +12,7 @@ const CardBoardBg = () => {
               className="w-[55%] h-[90%] object-cover ml-[10%] my-6"
             />
             <div className="absolute border-[3px] border-[#68ace5] w-[60%] h-[80%] left-[7.5%] top-[6%]" />
-            <div className="absolute bg-white w-[35%] h-[65%] right-[5%] top-[12%] drop-shadow-[-7px_7px_1px_#001d3d]" />
+            <div className="absolute bg-white w-[35%] h-[65%] right-[5%] top-[12%] drop-shadow-[-7px_7px_#001e3d]" />
           </div>
           <div className="w-[80%] mx-auto h-[25%] mt-[3%] flex justify-between">
             <div className="w-[29%] h-full bg-white "></div>
