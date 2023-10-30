@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
 
           <div className="w-[30%] pt-6 h-[50%] mr-[5%] mt-[5%]" data-entrance="fade">
-            <div className="text-md text-[#6699cc]  ">MAIN CAMPUS</div>
+            <div className="text-md text-[#6699cc] factoriabook">MAIN CAMPUS</div>
             <div className="text-lg uppercase text-white font-semibold font-serif">
               H.H. Gardens, Power House Road,
               <br /> Sri Ganganagar <br />{" "}
