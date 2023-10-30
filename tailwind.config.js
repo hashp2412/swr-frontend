@@ -16,6 +16,9 @@ module.exports = {
         dentalbg: "url('/dental-banner.jpeg')",
         greypattern: "url('/grey-pattern.jpg')",
         bluebg: "url('/blue-bg-text.svg')",
+        cardboardbg: "url('/cardboard-bg.png')",
+        marblebg: "url('/marble-bg.png')",
+        bluefiller: "url('/blue-filler.jpg')",
 
       },
       fontFamily: {
