@@ -11,12 +11,12 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
-      <img src="/torn-paper2.png" className="absolute w-full h-10 top-[115.5%] scale-y-[-1]"/>
+      <img src="/torn-paper2.png" className="absolute w-full h-10 top-[51.5rem] scale-y-[-1]"/>
 
      
         <BlueBg/>
        {/* <Intro/> */}
-       <img src="/torn-paper2.png" className="absolute w-full top-[274%] h-14 scale-y-[-1] scale-x-[-1]"/>
+       <img src="/torn-paper2.png" className="absolute w-full top-[123rem] h-14 scale-y-[-1] scale-x-[-1]"/>
        <BlueFiller/>
        <CardBoardBg/>
        <MarbleBg/>
