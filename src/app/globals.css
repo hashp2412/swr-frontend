@@ -26,6 +26,15 @@
     /* other formats include: 'woff2', 'truetype, 'opentype',
                               'embedded-opentype', and 'svg' */
   }
+  @font-face {
+    font-family: 'ProximaNova-Black';
+    src: local('ProximaNova-Black'), url(/ProximaNova-Black.woff) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+  .proximanovablack{
+    font-family: 'ProximaNova-Black';
+  }
 .factoriablack{
     font-family: 'Factoria-Black';
   }
@@ -38,7 +47,52 @@
   .factoriabook{
     font-family: 'Factoria-Book';
   }
+  .slide-enter {
+  transform: translateY(-100%);
+  opacity: 0;
+}
 
+.slide-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 500ms cubic-bezier(0.5, 1, 0.5, 1), opacity 300ms;
+}
+
+.slide-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-exit-active {
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 500ms cubic-bezier(0.25, 0.1, 0.25, 1), opacity 300ms;
+}
+
+.underline {
+  text-decoration: none;
+  position: relative;
+}
+
+.underline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: white; /* Change to the color you want for the underline */
+  transform: scaleX(0);
+  transform-origin: 0 100%;
+  transition: transform 0.3s ease; /* Adjust the duration as needed */
+}
+
+.underline:hover::after {
+  transform: scaleX(1);
+}
+
+
+  
 @media (prefers-color-scheme: dark) {
 
 }

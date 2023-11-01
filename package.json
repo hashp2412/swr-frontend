@@ -13,6 +13,8 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-icons": "^4.11.0",
+    "react-transition-group": "^4.4.5",
     "scroll-entrance": "^1.0.0"
   },
   "devDependencies": {

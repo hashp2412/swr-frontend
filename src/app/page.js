@@ -6,9 +6,11 @@ import CardBoardBg from "../components/CardBoardBg";
 import BlueFiller from "../components/BlueFiller";
 import MarbleBg from "../components/MarbleBg";
 import ImageSection from "../components/ImageSection"
+import NavBar from "../components/NavBar";
 export default function Home() {
   return (
     <main>
+      <NavBar/>
       <HeroSection />
       <img
         src="/torn-paper2.png"

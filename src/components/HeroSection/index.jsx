@@ -23,7 +23,7 @@ const HeroSection = () => {
             <img src="/bird-logo.svg" alt="" className="w-full h-full" />
           </div>
 
-           <video autoPlay muted loop className={`brightness-90 `} onLoadedData={handleVideoLoad}
+           <video autoPlay muted loop className={``} onLoadedData={handleVideoLoad}
         onCanPlayThrough={handleVideoLoad}>
             <source src="/HomePage1.mp4" type="video/mp4" />
           </video>
