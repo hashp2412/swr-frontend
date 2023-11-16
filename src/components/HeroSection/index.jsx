@@ -19,7 +19,7 @@ const HeroSection = () => {
             {/* <Navbar/> */}
           {/* </div> */}
 
-          <div className="absolute z-10 top-[30%] left-[10%]">
+          <div className="absolute z-10 top-[20rem] left-[10%]">
             <img src="/bird-logo.svg" alt="" className="w-full h-full" />
           </div>
 

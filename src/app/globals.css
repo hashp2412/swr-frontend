@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Serif:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&family=Raleway:ital,wght@1,300&family=Sofia+Sans+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,100&family=Young+Serif&display=swap");
+
 @font-face {
     font-family: 'Factoria-Black';
     src: local('Factoria-Black'), url(/Factoria-Black.woff) format('woff');
@@ -14,6 +14,14 @@
     /* other formats include: 'woff2', 'truetype, 'opentype',
                               'embedded-opentype', and 'svg' */
   }
+
+  @font-face {
+    font-family: 'Factoria-Ultra';
+    src: local('Factoria-Ultra'), url(/Factoria-Ultra.woff) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
   @font-face {
     font-family: 'Factoria-Book';
     src: local('Factoria-Book'), url(/Factoria-Book.woff) format('woff');
@@ -22,7 +30,7 @@
   }
   @font-face {
     font-family: 'Factoria-Thin';
-    src: local('Factoria-Thin'), url(/Factoria-Thin.woff) format('woff');
+    src: local('Factoria-Thin'), url(/Factoria-Thin.ttf) format('woff');
     /* other formats include: 'woff2', 'truetype, 'opentype',
                               'embedded-opentype', and 'svg' */
   }
@@ -32,9 +40,77 @@
     /* other formats include: 'woff2', 'truetype, 'opentype',
                               'embedded-opentype', and 'svg' */
   }
+
+  @font-face {
+    font-family: 'ProximaNova-Bold';
+    src: local('ProximaNova-Bold'), url(/ProximaNova-Bold.woff) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'ProximaNova-Extrabold';
+    src: local('ProximaNova-Extrabold'), url(/ProximaNova-Extrabold.woff) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'ProximaNova-Semibold';
+    src: local('ProximaNova-Semibold'), url(/ProximaNova-Semibold.woff) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'ProximaNova-Thin';
+    src: local('ProximaNova-Thin'), url(/ProximaNova-Thin.woff) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'ProximaNova-Regular';
+    src: local('ProximaNova-Regular'), url(/ProximaNova-Regular.woff) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'ProximaNova-Light';
+    src: local('ProximaNova-Light'), url(/ProximaNova-Light.woff) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
   .proximanovablack{
     font-family: 'ProximaNova-Black';
   }
+
+  .proximanovabold{
+    font-family: 'ProximaNova-Bold';
+  }
+
+  .proximanovaextrabold{
+    font-family: 'ProximaNova-Extrabold';
+  }
+
+  .proximanovalight{
+    font-family: 'ProximaNova-Light';
+  }
+
+  .proximanovaregular{
+    font-family: 'ProximaNova-Regular';
+  }
+
+  .proximanovasemibold{
+    font-family: 'ProximaNova-Semibold';
+  }
+
+  .proximanovathin{
+    font-family: 'ProximaNova-Thin';
+  }
+
 .factoriablack{
     font-family: 'Factoria-Black';
   }
@@ -47,6 +123,19 @@
   .factoriabook{
     font-family: 'Factoria-Book';
   }
+  .factoriaultra{
+    font-family: 'Factoria-Ultra';
+  }
+
+
+
+
+
+
+
+
+
+
   .slide-enter {
   transform: translateY(-100%);
   opacity: 0;
@@ -99,5 +188,5 @@
 
 
 body {
-font-family: 'Sofia Sans Condensed', sans-serif;
+font-family: 'ProximaNova-Regular', sans-serif;
 }

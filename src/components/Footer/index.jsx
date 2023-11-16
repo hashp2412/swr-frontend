@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="flex h-full w-full">
           <div className=" mt-[5%] w-[30%] pl-[5%] border-r-[#6699cc] border-r-[1px] h-[50%] mr-[5%]" data-entrance="from-left">
             <img
-              src="/mainlogo.png"
+              src="/bird-logo.svg"
               alt=""
-              className="w-[70%] mt-[7%] ml-[10%]"
+              className="w-[90%] mt-[7%] ml-[10%]"
             />
             <button className="py-2 px-10 bg-white text-[#6699cc]  font-semibold text-lg rounded-md mt-[10%] ml-[15%]">
               Contact Us

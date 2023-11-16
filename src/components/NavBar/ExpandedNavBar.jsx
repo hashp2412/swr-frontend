@@ -7,7 +7,7 @@ const ExpandedNavbar = ({closingfunction}) => {
     <div className="w-full h-screen  z-[100] fixed " >
       <div className="w-full h-[15%] flex justify-between bg-black shadow-2xl">
         <div className="w-[80%]">
-          <img src="/mainlogo.png" alt="" className="w-[15%] mt-6 ml-[5%]" />
+          <img src="/bird-logo.svg" alt="" className="w-[20rem] mt-8 ml-[2%]" />
         </div>
 
         <button className="w-[20%] flex justify-end mt-6 mr-4" onClick={closingfunction}>
